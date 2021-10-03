@@ -346,6 +346,15 @@ html {
     line-height: 1.5;
 }
 
+.contact-info a{
+    color: #3a2dec;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: initial;
+}
+
 .contact-icon {
     width: 30px;
 }

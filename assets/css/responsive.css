@@ -2,6 +2,32 @@
 @media (min-width:1024px) {
 
 }
+
+/* ipad & mobile */
+@media (max-width:1023px) {
+    #nav .subnav a {
+        padding: 12px 16px;
+    }
+    .btn{
+        padding: 16px 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .formControl{
+        padding: 14px;
+    }
+    #footer .social-list {
+        font-size: 32px;
+    }
+    .social-list a {
+        padding-left: 10px;
+    }
+    #footer .copyright a {
+        padding: 11px 0;
+    }
+}
+
 /* ipad */
 @media (min-width:740px) and (max-width:1023px) {
     
@@ -49,7 +75,6 @@
 
     #nav .subnav a {
         color: #fff;
-        padding: 10px 16px;
     }
     /* slider */
     #slider .text-heading {
@@ -67,8 +92,9 @@
     
     /* content-cotact */
     .contact-form {
-        margin-top: 16px;
+        margin-top: 32px;
     }
+    
     /* .open_menu {
         height: auto !important;
     } */
